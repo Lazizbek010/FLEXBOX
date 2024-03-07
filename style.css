@@ -1,0 +1,41 @@
+.parent {
+      width: 100%;
+      height: 800px;
+      background-color: aqua;
+      position: relative;
+
+
+}
+
+body{
+      margin: 50px;
+}
+.parent div {
+      width: 250px;
+      height: 200px;
+      border: 2px solid red;
+      font-size: 40px;
+      color: #fff;
+}
+
+.child1 {
+      background-color: red;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+}
+
+.child2 {
+      background-color: gold;
+}
+
+.child3 {
+      background-color: lime;
+}
+
+.bobo{
+      background-color: coral;
+      padding: 100px;
+      position: relative;
+}
